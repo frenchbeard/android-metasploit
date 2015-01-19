@@ -1,5 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="hello">Hello World, CapitalePaysMondeActivity!</string>
-    <string name="app_name">CapitalePaysMonde</string>
+
+    <string name="app_name">FIC 2015</string>
+    <string name="title_news_feed">ACTUALITÉS</string>
+    <string name="title_program">PROGRAMME</string>
+    <string name="title_partners">PARTENAIRES</string>
+    <string name="title_twitter">TWITTER</string>
+    <string name="title_people">INTERVENANTS</string>
+    <string name="title_theme_route">PARCOURS THÉMATIQUE</string>
+    <string name="title_tv">PLATEAU TV</string>
+    <string name="title_demo">ESPACE DÉMO</string>
+    <string name="title_challenge">CHALLENGE</string>
+    <string name="title_strategic_simulation">SIMULATION STRATÉGIQUE</string>
+    <string name="title_career_space">ESPACE CARRIÈRE</string>
+    <string name="title_innov_pme">PRIX DE LA PME INNOVANTE</string>
+    <string name="title_cyber_book">PRIX DU LIVRE CYBER</string>
+    <string name="title_practical">INFORMATIONS PRATIQUES</string>
+    <string name="title_access">PLAN DU SALON</string>
+    <string name="navigation_drawer_open">Ouvrir le menu de navigation</string>
+    <string name="navigation_drawer_close">Fermer le menu de navigation</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="menu_title">MENU</string>
+    <string name="default_img_content_description">img</string>
+    <string name="splash_title_1">Cybersécurité et Transformation Numérique</string>
+    <string name="splash_title_2"></string>
+    <string name="splash_title_3"></string>
+    <string name="splash_subtitle_1_label">Un événement co-financé par</string>
+    <string name="splash_subtitle_1">La Région Nord-Pas de Calais</string>
+    <string name="splash_subtitle_2_label">Et organisé par</string>
+    <string name="splash_subtitle_2_1">La Gendarmerie Nationale</string>
+    <string name="splash_subtitle_2_2">Euratechologies</string>
+    <string name="splash_subtitle_2_3">CEIS</string>
+    <string name="splash_made_by">Développée par</string>
+    <string name="action_example"></string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_splash">splash</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
 </resources>

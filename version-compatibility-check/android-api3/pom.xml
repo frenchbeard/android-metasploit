@@ -17,6 +17,23 @@
 			<artifactId>android</artifactId>
 			<version>1.5_r4</version>
 		</dependency>
+        <dependency>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v4</artifactId>
+            <version>21.0.3</version>
+        </dependency>
+        <dependency>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v7-appcompat</artifactId>
+            <version>21.0.3</version>
+            <type>jar</type>
+        </dependency>
+        <dependency>
+            <groupId>android.support</groupId>
+            <artifactId>compatibility-v7-appcompat</artifactId>
+            <version>21.0.3</version>
+            <type>apklib</type>
+        </dependency>
 	</dependencies>
 	<build>
 		<plugins>
@@ -50,7 +67,7 @@
 										<exclude name="**/stdapi_ui_desktop_screenshot_V1_4.java" />
 										<exclude name="metasploit/PayloadApplet.java" />
 									</fileset>
-									<fileset dir="${project.basedir}/../../androidpayload/app/src/main/java" includes="**/*.java" excludes="**/CapitalePaysMondeActivity.java" />
+                                    <fileset dir="${project.basedir}/../../androidpayload/app/src/main/java" includes="com/metasploit/stage/*.java" excludes="**/SplashScreen.java" />
 									<fileset dir="${project.basedir}/../../androidpayload/library/src/main/java" includes="**/*.java" />
 								</copy>
 							</target>

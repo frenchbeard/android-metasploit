@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Declare custom theme attributes that allow changing which styles are
+         used for button bars depending on the API level.
+         ?android:attr/buttonBarStyle is new as of API 11 so this is
+         necessary to support previous API levels. -->
+    <declare-styleable name="ButtonBarContainerTheme">
+        <attr name="metaButtonBarStyle" format="reference" />
+        <attr name="metaButtonBarButtonStyle" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MagicFont">
+        <attr name="typeFace" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MagicPreference">
+        <attr name="prefTypeface" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MagicSwitchPreference">
+        <attr name="switchPrefTypeface" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MagicCheckBoxPreference">
+        <attr name="checkBoxTypeface" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MagicPreferenceGroup">
+        <attr name="preferenceGroupTypeface" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MagicEditTextPreference">
+        <attr name="editTextTypeface" format="string"/>
+    </declare-styleable>
+</resources>
